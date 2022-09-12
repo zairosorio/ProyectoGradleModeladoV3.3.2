@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Title of your feature" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-26T16:35:20" hostname="Android" time="0.549">
+<testsuite name="Title of your feature" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-12T16:01:29" hostname="Android" time="21.288">
   <properties/>
-  <testcase name="Title of your scenario outline #1" classname="Title of your feature" time="0.51"/>
-  <testcase name="Title of your scenario outline #2" classname="Title of your feature" time="0.019"/>
-  <testcase name="Title of your scenario outline #3" classname="Title of your feature" time="0.019"/>
+  <testcase name="Title of your scenario outline #1" classname="Title of your feature" time="8.448"/>
+  <testcase name="Title of your scenario outline #2" classname="Title of your feature" time="6.22"/>
+  <testcase name="Title of your scenario outline #3" classname="Title of your feature" time="6.62"/>
   <system-out><![CDATA[jenkins
 java
 jenkins java
@@ -14,5 +14,62 @@ docker
 java
 docker java
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Title of your scenario outline(title-of-your-feature;title-of-your-scenario-outline)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER-PC\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, autodownload: true, base.url: https://duckduckgo.com/staging, browserName: chrome, driver: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --headless], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 31332
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 12, 2022 11:01:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Title of your scenario outline
+----------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER-PC\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, autodownload: true, base.url: https://duckduckgo.com/staging, browserName: chrome, driver: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --headless], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 48117
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 12, 2022 11:01:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Title of your scenario outline
+----------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER-PC\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, autodownload: true, base.url: https://duckduckgo.com/staging, browserName: chrome, driver: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --headless], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 36759
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 12, 2022 11:01:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
 </testsuite>

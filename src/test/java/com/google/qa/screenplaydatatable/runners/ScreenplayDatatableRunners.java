@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions( features="src/test/resources/features",
         glue = { "com.google.qa.screenplaydatatable.stepdefinitions" },
-        snippets =  CucumberOptions.SnippetType.CAMELCASE
+        snippets =  CucumberOptions.SnippetType.CAMELCASE,
+        dryRun = false
         )  
 public class ScreenplayDatatableRunners {
 
